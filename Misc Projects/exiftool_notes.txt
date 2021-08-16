@@ -4,18 +4,18 @@ https://exiftool.org/
 Documentation: https://exiftool.org/exiftool_pod.html
 location of gpx.fmt file: https://github.com/exiftool/exiftool/blob/master/fmt_files/gpx.fmt
 
-Print embeded metadata to screen:
+Print embedded metadata to screen:
 
 "C:\Users\Administrator\Downloads\exiftool-12.30\exiftool.exe" -ee "C:\Users\Administrator\Desktop\exif_tool_example\GC1U1218.MP4"
 
-Write embeded metadata to a text file:
+Write embedded metadata to a text file:
 "C:\Users\Administrator\Downloads\exiftool-12.30\exiftool.exe" -ee "C:\Users\Administrator\Desktop\exif_tool_example\GC1U1218.MP4" > "C:\Users\Administrator\Desktop\exif_tool_example\exiftool_output_test.txt"
 
-Print embeded metadata to screen in .gpx format:
+Print embedded metadata to screen in .gpx format:
 
 "C:\Users\Administrator\Downloads\exiftool-12.30\exiftool.exe" -p "C:\Users\Administrator\Desktop\exif_tool_example\gpx.fmt" -ee "C:\Users\Administrator\Desktop\exif_tool_example\GC1U1218.MP4" 
 
-Write embeded metadata to a file in .gpx format:
+Write embedded metadata to a file in .gpx format:
 
 "C:\Users\Administrator\Downloads\exiftool-12.30\exiftool.exe" -p "C:\Users\Administrator\Desktop\exif_tool_example\gpx.fmt" -ee "C:\Users\Administrator\Desktop\exif_tool_example\GC1U1218.MP4" > "C:\Users\Administrator\Desktop\exif_tool_example\exiftool_gpx_output_test.gpx"
 
