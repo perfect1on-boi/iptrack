@@ -23,4 +23,7 @@ Create .gpx files for all .mp4 files in a given directory:
 
 "C:\Users\Administrator\Downloads\exiftool-12.30\exiftool.exe" -p "C:\\Users\\Administrator\\Desktop\\exif_tool_example\\gpx.fmt" -ee -ext MP4 -w "C:\\Users\\Administrator\\Desktop\\exif_tool_example\\%f.gpx" "C:\Users\Administrator\Desktop\exif_tool_example"
 
+used this to merge all gpx in a directory to a shapefile 
+
+for file in /Volumes/FranArchives/Home_Media/Frans_Videos/2022/Dashcam_Footage/Lompac_Solvang_Partial/gpx/*GC1*.GPX; do ogr2ogr /Volumes/FranArchives/Home_Media/Frans_Videos/2022/Dashcam_Footage/Lompac_Solvang_Partial/gpx.shp -append "${file}" track_points -fieldTypeToString DateTime; done
 
