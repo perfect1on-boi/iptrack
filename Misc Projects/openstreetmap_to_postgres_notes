@@ -1,0 +1,20 @@
+Youtube Videos
+
+https://youtu.be/decUXZZlstA
+
+1) Download and Install Postgres and PostGIS
+2) Create new OSM database
+3) Enable PostGIS Extension
+4) Enable hstore Extension
+5) Download osm2pgsql Tool and Style File (https://osm2pgsql.org/doc/install.html) https://learnosm.org/en/osm-data/osm2pgsql/
+6) Download OSM data/osm2pgsql (https://download.geofabrik.de/)
+7) Import data using osm2pgsql
+
+Sample osm2pgsql command - 
+
+"C:\Users\Administrator\Downloads\osm2pgsql-latest-x64\osm2pgsql-bin\osm2pgsql.exe" -c -d osm -U postgres -W -H localhost -S "C:\Users\Administrator\Downloads\default.style" "C:\Users\Administrator\Downloads\us-northeast-latest.osm.pbf"
+
+
+
+
+
